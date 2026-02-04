@@ -1,0 +1,5 @@
+flask
+gunicorn
+azure-search-documents
+azure-ai-formrecognizer
+azure-cognitiveservices-speech
