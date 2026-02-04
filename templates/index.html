@@ -1,10 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>EduVoice</title>
+  <meta charset="UTF-8">
+  <title>EduVoice Student Assistant</title>
+  <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>EduVoice Student Assistant</h1>
-    <p>App is running successfully.</p>
+
+<h1>🎓 EduVoice Student Assistant</h1>
+<p>Ask questions using text or voice. Learn smarter.</p>
+
+<div class="search-box">
+  <input id="query" placeholder="Ask a question..." />
+  <button onclick="runSearch()">🔎 Search</button>
+  <button onclick="startMic()">🎤 Speak</button>
+</div>
+
+<div id="results"></div>
+
+<script src="/static/script.js"></script>
 </body>
 </html>
