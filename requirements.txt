@@ -1,5 +1,6 @@
-flask
-gunicorn
-azure-search-documents
-azure-ai-formrecognizer
-azure-cognitiveservices-speech
+Flask==3.0.0
+gunicorn==21.2.0
+
+azure-search-documents==11.4.0
+azure-ai-formrecognizer==3.3.3
+azure-cognitiveservices-speech==1.38.0
